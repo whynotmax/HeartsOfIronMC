@@ -130,4 +130,58 @@ src/
                         ├── Config.java
                         ├── ServerSettings.java
                         └── GameRules.java
+resources/
+├── config/
+│   ├── server_settings.json
+│   ├── game_rules.json
+│   └── logging.json
+│
+├── nations/
+│   ├── germany.json
+│   ├── france.json
+│   ├── soviet_union.json
+│   ├── united_kingdom.json
+│   ├── usa.json
+│   ├── italy.json
+│   ├── japan.json
+│   └── poland.json
+│
+├── provinces/
+│   ├── 001_berlin.json
+│   ├── 002_paris.json
+│   ├── 003_moscow.json
+│   ├── 004_london.json
+│   └── 005_warsaw.json
+│
+├── factories/
+│   ├── military.json
+│   ├── civilian.json
+│   └── dockyard.json
+│
+├── focus_trees/
+│   ├── germany_focus.json
+│   ├── france_focus.json
+│   └── japan_focus.json
+│
+├── tech/
+│   ├── industry.json
+│   ├── electronics.json
+│   ├── infantry.json
+│   ├── armor.json
+│   ├── air.json
+│   └── naval.json
+│
+├── events/
+│   ├── event_anschluss.json
+│   ├── event_munich_agreement.json
+│   └── event_spanish_civil_war.json
+│
+├── ui/
+│   ├── main_menu.json
+│   └── tooltip_templates.json
+│
+└── localization/
+    ├── en_us.json
+    └── de_de.json
+
 ```
