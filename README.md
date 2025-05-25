@@ -191,9 +191,26 @@ resources/
 │   └── naval.json
 │
 ├── events/
-│   ├── event_anschluss.json
-│   ├── event_munich_agreement.json
-│   └── event_spanish_civil_war.json
+│   ├── political/
+│   │   ├── election_1936.json
+│   │   ├── coup_italy.json
+│   │   └── alliance_formed.json
+│   ├── military/
+│   │   ├── battle_stalingrad.json
+│   │   ├── invasion_france.json
+│   │   └── naval_battle.json
+│   ├── economic/
+│   │   ├── great_depression.json
+│   │   └── trade_embargo.json
+│   ├── disasters/
+│   │   ├── earthquake.json
+│   │   └── famine.json
+│   ├── special/
+│   |   ├── anschluss.json
+│   |   └── spanish_civil_war.json
+|   └── mods/
+|       └── plugin_name
+|           └── custom.json
 │
 ├── ui/
 │   ├── main_menu.json
