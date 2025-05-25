@@ -212,12 +212,61 @@ resources/
 |       └── plugin_name
 |           └── custom.json
 │
+├── maps/
+│   ├── world_map.json
+│   ├── terrain_overlay.png
+│   └── province_borders.json
+|
+├── scripts/
+│   ├── ai_behaviors.json
+│   ├── event_triggers.json
+│   └── custom_mod_logic.js
+|
+├── audio/
+│   ├── music/
+│   │   ├── ambient_loop.ogg
+│   │   ├── battle_theme.ogg
+│   │   └── menu_music.ogg
+│   ├── sfx/
+│   │   ├── explosion.wav
+│   │   ├── click.wav
+│   │   └── marching.wav
+│   └── voices/
+│       ├── general_commands/
+│       │   ├── attack_command.ogg
+│       │   └── retreat_command.ogg
+│       └── narration/
+│           └── intro_narration.ogg
+|
+├── animations/
+│   ├── unit_march/
+│   │   ├── frame_001.png
+│   │   ├── frame_002.png
+│   │   └── ...
+│   ├── explosions/
+│   │   ├── frame_001.png
+│   │   └── ...
+|
+├── shaders/
+│   ├── bloom.glsl
+│   ├── vignette.glsl
+│   └── water_reflection.glsl
+|
 ├── ui/
-│   ├── main_menu.json
-│   └── tooltip_templates.json
+│   ├── themes/
+│   │   ├── dark_theme.json
+│   │   └── light_theme.json
+│   ├── icons/
+│   │   ├── flag_icons.png
+│   │   └── unit_icons.png
+│   └── cursors/
+│       ├── default.cur
+│       └── attack.cur
 │
 └── localization/
     ├── en_us.json
-    └── de_de.json
+    ├── de_de.json
+    ├── glossary.json
+    └── error_messages.json
 
 ```
