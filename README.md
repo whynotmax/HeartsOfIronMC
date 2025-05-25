@@ -1,5 +1,5 @@
 # HeartsOfIronMC
-Hearts of Iron IV als Minecraft-Minestom-Server in Java, mit OOP, Event-System, Services, UI, Tick-Handling, KI und Game Logic.
+Hearts of Iron IV als Minecraft-Minestom-Server in Java, mit Event-System, Services, UI, Tick-Handling, KI und Game Logic.
 
 ## File Tree
 ```
