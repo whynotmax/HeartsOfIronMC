@@ -256,12 +256,9 @@ resources/
 │   ├── themes/
 │   │   ├── dark_theme.json
 │   │   └── light_theme.json
-│   ├── icons/
-│   │   ├── flag_icons.png
-│   │   └── unit_icons.png
-│   └── cursors/
-│       ├── default.cur
-│       └── attack.cur
+│   └── icons/
+│       ├── flag_icons.png
+│       └── unit_icons.png
 │
 └── localization/
     ├── en_us.json
