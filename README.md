@@ -136,22 +136,41 @@ resources/
 │   ├── game_rules.json
 │   └── logging.json
 │
-├── nations/
-│   ├── germany.json
-│   ├── france.json
-│   ├── soviet_union.json
-│   ├── united_kingdom.json
-│   ├── usa.json
-│   ├── italy.json
-│   ├── japan.json
-│   └── poland.json
-│
 ├── provinces/
-│   ├── 001_berlin.json
-│   ├── 002_paris.json
-│   ├── 003_moscow.json
-│   ├── 004_london.json
-│   └── 005_warsaw.json
+│   ├── germany/
+│   │   ├── 001_berlin.json
+│   │   ├── 002_bavaria.json
+│   │   ├── 003_saxony.json
+│   │   └── ...
+│   ├── france/
+│   │   ├── 001_paris.json
+│   │   ├── 002_normandy.json
+│   │   ├── 003_lyon.json
+│   │   └── ...
+│   ├── soviet_union/
+│   │   ├── 001_moscow.json
+│   │   ├── 002_leningrad.json
+│   │   └── ...
+│   ├── united_kingdom/
+│   │   ├── 001_london.json
+│   │   ├── 002_manchester.json
+│   │   └── ...
+│   ├── usa/
+│   │   ├── 001_washington.json
+│   │   ├── 002_new_york.json
+│   │   └── ...
+│   ├── italy/
+│   │   ├── 001_rome.json
+│   │   ├── 002_milan.json
+│   │   └── ...
+│   ├── japan/
+│   │   ├── 001_tokyo.json
+│   │   ├── 002_osaka.json
+│   │   └── ...
+│   └── poland/
+│       ├── 001_warsaw.json
+│       ├── 002_krakow.json
+│       └── ...
 │
 ├── factories/
 │   ├── military.json
