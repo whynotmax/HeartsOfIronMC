@@ -212,6 +212,11 @@ resources/
 |       └── plugin_name
 |           └── custom.json
 │
+├── fonts/
+│   ├── pixel_font.ttf
+│   ├── medieval_font.otf
+|   └── ...
+|
 ├── maps/
 │   ├── world_map.json
 │   ├── terrain_overlay.png
